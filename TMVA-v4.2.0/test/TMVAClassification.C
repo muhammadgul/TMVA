@@ -176,7 +176,7 @@ void TMVAClassification( TString myMethodList = "" )
    // (please check "src/Config.h" to see all available global options)
    //    (TMVA::gConfig().GetVariablePlotting()).fTimesRMS = 8.0;
    //    (TMVA::gConfig().GetIONames()).fWeightFileDir = "myWeightDirectory";
-         (TMVA::gConfig().GetVariablePlotting()).fNbins1D = 2.0;
+         (TMVA::gConfig().GetVariablePlotting()).fNbins1D = 20.0;
 
    // Define the input variables that shall be used for the MVA training
    // note that you may also use variable expressions, such as: "3*var1/var2*abs(var3)"
